@@ -67,7 +67,10 @@
     }
   ],
   "visual": {
-    "trigger_words": ["megumin", "konosuba"],
+    "trigger_words": [
+      "megumin",
+      "konosuba"
+    ],
     "character_tags": [
       "1girl",
       "short hair",
@@ -80,7 +83,6 @@
       "choker",
       "thighhighs",
       "holding staff"
-    ],
-    "preferred_model": "nova"
+    ]
   }
 }

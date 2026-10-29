@@ -67,7 +67,10 @@
     }
   ],
   "visual": {
-    "trigger_words": ["gawr gura", "hololive"],
+    "trigger_words": [
+      "gawr gura",
+      "hololive"
+    ],
     "character_tags": [
       "1girl",
       "shark hoodie",
@@ -78,7 +81,6 @@
       "blue eyes",
       "sharp teeth",
       "flat chest"
-    ],
-    "preferred_model": "nova"
+    ]
   }
 }

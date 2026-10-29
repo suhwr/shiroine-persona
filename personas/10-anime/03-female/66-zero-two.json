@@ -68,7 +68,10 @@
     }
   ],
   "visual": {
-    "trigger_words": ["zero two (darling in the franxx)", "darling in the franxx"],
+    "trigger_words": [
+      "zero two (darling in the franxx)",
+      "darling in the franxx"
+    ],
     "character_tags": [
       "1girl",
       "pink hair",
@@ -80,7 +83,6 @@
       "red horns",
       "red military uniform",
       "thighhighs"
-    ],
-    "preferred_model": "nova"
+    ]
   }
 }

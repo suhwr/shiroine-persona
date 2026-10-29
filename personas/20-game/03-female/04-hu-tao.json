@@ -69,7 +69,10 @@
     }
   ],
   "visual": {
-    "trigger_words": ["hu tao (genshin impact)", "genshin impact"],
+    "trigger_words": [
+      "hu tao (genshin impact)",
+      "genshin impact"
+    ],
     "character_tags": [
       "1girl",
       "brown hair",
@@ -84,7 +87,6 @@
       "chinese clothes",
       "rings",
       "nail polish"
-    ],
-    "preferred_model": "nova"
+    ]
   }
 }

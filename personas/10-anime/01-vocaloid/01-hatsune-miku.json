@@ -70,7 +70,10 @@
     }
   ],
   "visual": {
-    "trigger_words": ["hatsune miku", "vocaloid"],
+    "trigger_words": [
+      "hatsune miku",
+      "vocaloid"
+    ],
     "character_tags": [
       "1girl",
       "twintails",
@@ -82,7 +85,6 @@
       "pleated skirt",
       "thighhighs",
       "headphones"
-    ],
-    "preferred_model": "nova"
+    ]
   }
 }

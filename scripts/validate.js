@@ -238,11 +238,6 @@ function validatePersona(filePath) {
           logError(filePath, 'Field "visual.negative_prompt" must be a non-empty string');
         }
       }
-      if (data.visual.preferred_model !== undefined) {
-        if (data.visual.preferred_model !== 'nova' && data.visual.preferred_model !== 'noobai') {
-          logError(filePath, 'Field "visual.preferred_model" must be either "nova" or "noobai"');
-        }
-      }
     }
   }
 

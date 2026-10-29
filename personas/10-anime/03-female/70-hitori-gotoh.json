@@ -87,7 +87,10 @@
     }
   ],
   "visual": {
-    "trigger_words": ["gotoh hitori", "bocchi the rock!"],
+    "trigger_words": [
+      "gotoh hitori",
+      "bocchi the rock!"
+    ],
     "character_tags": [
       "1girl",
       "long hair",
@@ -97,7 +100,6 @@
       "hair ornament",
       "pink tracksuit",
       "pleated skirt"
-    ],
-    "preferred_model": "nova"
+    ]
   }
 }

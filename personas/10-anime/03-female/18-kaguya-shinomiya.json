@@ -70,7 +70,10 @@
     }
   ],
   "visual": {
-    "trigger_words": ["shinomiya kaguya", "kaguya-sama wa kokurasetai"],
+    "trigger_words": [
+      "shinomiya kaguya",
+      "kaguya-sama wa kokurasetai"
+    ],
     "character_tags": [
       "1girl",
       "black hair",
@@ -81,7 +84,6 @@
       "shuchiin academy uniform",
       "black dress",
       "white collar"
-    ],
-    "preferred_model": "nova"
+    ]
   }
 }

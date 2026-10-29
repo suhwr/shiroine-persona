@@ -68,7 +68,10 @@
     }
   ],
   "visual": {
-    "trigger_words": ["furina (genshin impact)", "genshin impact"],
+    "trigger_words": [
+      "furina (genshin impact)",
+      "genshin impact"
+    ],
     "character_tags": [
       "1girl",
       "blue hair",
@@ -82,7 +85,6 @@
       "aristocratic clothes",
       "fingerless gloves",
       "thighhighs"
-    ],
-    "preferred_model": "nova"
+    ]
   }
 }

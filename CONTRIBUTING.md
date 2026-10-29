@@ -65,7 +65,7 @@ Jika suatu kategori melampaui 99 karakter, nomor urut bertambah secara alami men
 | `relationships` | `object[]` | Wajib | Hubungan karakter dengan tokoh lain di ceritanya. Berisi array objek dengan kunci `name` (`string`) dan `content` (`string`). |
 | `example_dialogues` | `object[]` | Wajib | Contoh percakapan (few-shot). Berisi array objek dengan kunci `user` (`string`) dan `char` (`string`) yang menunjukkan gaya bahasa dan format tindakan `*tindakan*`. |
 | `speech_patterns` | `string` | Opsional | Gaya bicara khusus, intonasi, aksen, atau pola sapaan khas karakter. |
-| `visual` | `object` | Opsional | Metadata Danbooru tags & prompt image generation karakter (`trigger_words`, `character_tags`, `preferred_model`). |
+| `visual` | `object` | Opsional | Metadata Danbooru tags & prompt image generation karakter (`trigger_words`, `character_tags`, `negative_prompt`). |
 
 ---
 
@@ -175,8 +175,7 @@ Untuk mendukung generasi gambar anime otomatis dan konsisten via Danbooru tags (
     "thighhighs",
     "headphones"
   ],
-  "negative_prompt": "lowres, bad anatomy, text, error, extra digits, cropped",
-  "preferred_model": "nova"
+  "negative_prompt": "lowres, bad anatomy, text, error, extra digits, cropped"
 }
 ```
 

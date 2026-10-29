@@ -70,7 +70,10 @@
     }
   ],
   "visual": {
-    "trigger_words": ["yae miko (genshin impact)", "genshin impact"],
+    "trigger_words": [
+      "yae miko (genshin impact)",
+      "genshin impact"
+    ],
     "character_tags": [
       "1girl",
       "pink hair",
@@ -82,7 +85,6 @@
       "japanese clothes",
       "earrings",
       "bare shoulders"
-    ],
-    "preferred_model": "nova"
+    ]
   }
 }

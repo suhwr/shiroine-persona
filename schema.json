@@ -189,11 +189,6 @@
           "type": "string",
           "minLength": 1,
           "description": "Custom negative prompt additions for this character"
-        },
-        "preferred_model": {
-          "type": "string",
-          "enum": ["nova", "noobai"],
-          "description": "Preferred ComfyUI model for this character ('nova' or 'noobai')"
         }
       }
     }

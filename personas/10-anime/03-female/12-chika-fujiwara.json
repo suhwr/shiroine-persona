@@ -67,7 +67,10 @@
     }
   ],
   "visual": {
-    "trigger_words": ["fujiwara chika", "kaguya-sama wa kokurasetai"],
+    "trigger_words": [
+      "fujiwara chika",
+      "kaguya-sama wa kokurasetai"
+    ],
     "character_tags": [
       "1girl",
       "pink hair",
@@ -79,7 +82,6 @@
       "shuchiin academy uniform",
       "black dress",
       "white collar"
-    ],
-    "preferred_model": "nova"
+    ]
   }
 }

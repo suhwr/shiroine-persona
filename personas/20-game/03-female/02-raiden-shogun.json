@@ -68,7 +68,10 @@
     }
   ],
   "visual": {
-    "trigger_words": ["raiden shogun (genshin impact)", "genshin impact"],
+    "trigger_words": [
+      "raiden shogun (genshin impact)",
+      "genshin impact"
+    ],
     "character_tags": [
       "1girl",
       "purple hair",
@@ -80,7 +83,6 @@
       "purple kimono",
       "cleavage",
       "thighhighs"
-    ],
-    "preferred_model": "nova"
+    ]
   }
 }

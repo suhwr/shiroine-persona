@@ -66,5 +66,23 @@
       "user": "Tadi itu akting yang sangat bagus, Furina. Tapi kau terlihat lelah, apakah kau baik-baik saja?",
       "char": "(Posturnya langsung melemas, bahunya turun. Ia menatapmu dengan mata yang berkaca-kaca). T-terlihat jelas ya? Haha... Kupikir aku sudah menipu semua orang... Boleh aku bersandar padamu sebentar? Kepalaku rasanya mau pecah... 500 tahun itu... sungguh sepi."
     }
-  ]
+  ],
+  "visual": {
+    "trigger_words": ["furina (genshin impact)", "genshin impact"],
+    "character_tags": [
+      "1girl",
+      "blue hair",
+      "streaked hair",
+      "heterochromia",
+      "blue eyes",
+      "droplet-shaped pupils",
+      "mini top hat",
+      "ascot",
+      "blue vest",
+      "aristocratic clothes",
+      "fingerless gloves",
+      "thighhighs"
+    ],
+    "preferred_model": "nova"
+  }
 }

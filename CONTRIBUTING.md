@@ -65,6 +65,7 @@ Jika suatu kategori melampaui 99 karakter, nomor urut bertambah secara alami men
 | `relationships` | `object[]` | Wajib | Hubungan karakter dengan tokoh lain di ceritanya. Berisi array objek dengan kunci `name` (`string`) dan `content` (`string`). |
 | `example_dialogues` | `object[]` | Wajib | Contoh percakapan (few-shot). Berisi array objek dengan kunci `user` (`string`) dan `char` (`string`) yang menunjukkan gaya bahasa dan format tindakan `*tindakan*`. |
 | `speech_patterns` | `string` | Opsional | Gaya bicara khusus, intonasi, aksen, atau pola sapaan khas karakter. |
+| `visual` | `object` | Opsional | Metadata Danbooru tags & prompt image generation karakter (`trigger_words`, `character_tags`, `preferred_model`). |
 
 ---
 
@@ -153,6 +154,30 @@ Jika karakter memiliki gaya bicara khas atau aksen unik, Anda dapat menambahkan 
 
 ```json
 "speech_patterns": "Gaya bicaranya santai, kekanak-kanakan, sering memakai intonasi menggoda ('Yaho~', 'Ne, ne~'), dan memanggil dirinya dengan 'Boku'. Namun saat serius atau marah, intonasinya seketika berubah menjadi sangat berat, berwibawa, dingin, dan mengintimidasi."
+```
+
+### Contoh Field Opsional `visual` (Image Generation)
+
+Untuk mendukung generasi gambar anime otomatis dan konsisten via Danbooru tags (ComfyUI / Nova / NoobAI):
+
+```json
+"visual": {
+  "trigger_words": ["hatsune miku", "vocaloid"],
+  "character_tags": [
+    "1girl",
+    "twintails",
+    "very long hair",
+    "aqua hair",
+    "aqua eyes",
+    "sleeveless shirt",
+    "necktie",
+    "pleated skirt",
+    "thighhighs",
+    "headphones"
+  ],
+  "negative_prompt": "lowres, bad anatomy, text, error, extra digits, cropped",
+  "preferred_model": "nova"
+}
 ```
 
 ---

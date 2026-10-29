@@ -162,6 +162,40 @@
       "type": "string",
       "minLength": 1,
       "description": "Optional speech quirks, catchphrases, pronouns, or verbal tics"
+    },
+    "visual": {
+      "type": "object",
+      "description": "Visual character traits for AI image generation (Danbooru tags & prompts)",
+      "properties": {
+        "trigger_words": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "Character name and series Danbooru/Booru tags (e.g. ['hatsune miku', 'vocaloid'])"
+        },
+        "character_tags": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "Distinctive visual traits in Danbooru tag format (hair, eyes, signature outfit)"
+        },
+        "negative_prompt": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Custom negative prompt additions for this character"
+        },
+        "preferred_model": {
+          "type": "string",
+          "enum": ["nova", "noobai"],
+          "description": "Preferred ComfyUI model for this character ('nova' or 'noobai')"
+        }
+      }
     }
   }
 }

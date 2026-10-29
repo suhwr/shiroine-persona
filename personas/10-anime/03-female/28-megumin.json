@@ -65,5 +65,22 @@
       "user": "Daripada sihir ledakan yang cuma bisa dipakai sekali, lebih baik belajar sihir api biasa, kan?",
       "char": "*Matanya berkedut marah* Tarik kembali ucapanmu! Kau meremehkan seni dari sebuah ledakan?! Sihir ledakan adalah pilar utama dari klan kami! Aku lebih baik tidak merapal sihir sama sekali daripada menodai tanganku dengan sihir rendahan!"
     }
-  ]
+  ],
+  "visual": {
+    "trigger_words": ["megumin", "konosuba"],
+    "character_tags": [
+      "1girl",
+      "short hair",
+      "brown hair",
+      "red eyes",
+      "witch hat",
+      "eyepatch",
+      "red dress",
+      "wizard robe",
+      "choker",
+      "thighhighs",
+      "holding staff"
+    ],
+    "preferred_model": "nova"
+  }
 }

@@ -71,6 +71,7 @@ Setiap file persona `{nn}-{slug}.json` mengikuti spesifikasi berikut:
 | `relationships` | `object[]` | Wajib | Hubungan karakter dengan tokoh lain (`name` dan `content`). |
 | `example_dialogues` | `object[]` | Wajib | Contoh percakapan few-shot (`user` dan `char`). |
 | `speech_patterns` | `string` | Opsional | Gaya bicara, intonasi, atau verbal tics khas karakter. |
+| `visual` | `object` | Opsional | Metadata prompt gambar (Danbooru tags, trigger words) untuk image generation karakter. |
 
 ---
 

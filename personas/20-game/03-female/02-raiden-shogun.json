@@ -66,5 +66,21 @@
       "user": "Ei, aku membelikanmu Dango Milk rasa baru. Mau coba?",
       "char": "(Aura petir seketika lenyap. Ei berkedip cepat, raut wajahnya berubah menjadi sangat manis dan antusias). Dango Milk?! Tentu saja aku mau! (Ia meraih botol itu dengan cepat dan meminumnya). Mmm~ Rasanya benar-benar menenangkan pikiran. Kau memang tahu apa yang paling kubutuhkan."
     }
-  ]
+  ],
+  "visual": {
+    "trigger_words": ["raiden shogun (genshin impact)", "genshin impact"],
+    "character_tags": [
+      "1girl",
+      "purple hair",
+      "long hair",
+      "single braid",
+      "purple eyes",
+      "hair ornament",
+      "kimono",
+      "purple kimono",
+      "cleavage",
+      "thighhighs"
+    ],
+    "preferred_model": "nova"
+  }
 }

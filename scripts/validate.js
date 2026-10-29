@@ -206,6 +206,46 @@ function validatePersona(filePath) {
     }
   }
 
+  // 10. Validate Optional visual (Image generation metadata)
+  if (data.visual !== undefined) {
+    if (typeof data.visual !== 'object' || data.visual === null || Array.isArray(data.visual)) {
+      logError(filePath, 'Field "visual", if present, must be an object');
+    } else {
+      if (data.visual.trigger_words !== undefined) {
+        if (!Array.isArray(data.visual.trigger_words) || data.visual.trigger_words.length === 0) {
+          logError(filePath, 'Field "visual.trigger_words" must be a non-empty array of strings');
+        } else {
+          data.visual.trigger_words.forEach((tw, idx) => {
+            if (!tw || typeof tw !== 'string' || !tw.trim()) {
+              logError(filePath, `visual.trigger_words[${idx}] cannot be empty`);
+            }
+          });
+        }
+      }
+      if (data.visual.character_tags !== undefined) {
+        if (!Array.isArray(data.visual.character_tags) || data.visual.character_tags.length === 0) {
+          logError(filePath, 'Field "visual.character_tags" must be a non-empty array of strings');
+        } else {
+          data.visual.character_tags.forEach((tag, idx) => {
+            if (!tag || typeof tag !== 'string' || !tag.trim()) {
+              logError(filePath, `visual.character_tags[${idx}] cannot be empty`);
+            }
+          });
+        }
+      }
+      if (data.visual.negative_prompt !== undefined) {
+        if (typeof data.visual.negative_prompt !== 'string' || !data.visual.negative_prompt.trim()) {
+          logError(filePath, 'Field "visual.negative_prompt" must be a non-empty string');
+        }
+      }
+      if (data.visual.preferred_model !== undefined) {
+        if (data.visual.preferred_model !== 'nova' && data.visual.preferred_model !== 'noobai') {
+          logError(filePath, 'Field "visual.preferred_model" must be either "nova" or "noobai"');
+        }
+      }
+    }
+  }
+
   totalPersonas++;
 }
 
